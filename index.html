@@ -41,9 +41,10 @@
                 <div class="navigation-content">
                     <ul>
                         <li><a href="index.html">Home<span>></span></a></li>
-                        <li><a href="film.html">Works<span>></span></a></li>
+                        <li><a href="film.html">experience<span>></span></a></li>
                         <li><a href="photo.html">Contact<span>></span></a></li>
-                        <li><a href="about.html">Experience<span>></span></a></li>
+                        <li><a href="about.html">Portfolio<span>></span></a></li>
+                        <li><a href="about.html">Curiculum Vitae<span>></span></a></li>
                     </ul>
                 </div>
             </div>
@@ -56,7 +57,7 @@
         <div class="container">    
             <div class="row">
                 <div class=" col-12 col-md-6">
-                    <h1>Paul Worthington</h1>
+                    <h1 class="section-title">Paul Worthington</h1>
                     <h3><span class="typed-replaced">Software developer</span></h3>
                 </div>
 
@@ -66,30 +67,15 @@
             </div>
         </div>
         
-        <div class="container margin">    
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    <img class="home-hero-img" src="static/images/dive.jpeg">
-                </div>
-                
-                <div class=" col-12 col-md-6">
-                    <h1>Contact</h1>
-                    <h3><span class="typed-replaced">pworthington17@gmail.com</span></h3>
-                    <h3><span class="typed-replaced">Linkedin ></span></h3>
-                </div>
-            </div>
-        </div>
+
     </main>
 
     <section class="timeline-section">
         <div class="container">
           <!-- Timeline Header -->
           <div class="Timeline__header">
-            <h2>Timeline</h2>
-            <p class="heading--title">
-              Here is the breakdown of the time we anticipate <br />
-              using for the upcoming event.
-            </p>
+            <h2  class="section-title">Experience</h2>
+
           </div>
   
           <div class="Timeline__content">
@@ -162,6 +148,83 @@
           </div>
         </div>
       </section>
+    
+      <div class="container min-margin">    
+        <div class="row">
+            <div class=" col-12 col-md-6">
+                <h2  class="section-title">Contact</h2>
+                <p><span class="typed-replaced">email: pworthington17@gmail.com</span></p>
+                <p><span class="typed-replaced">Linkedin: Paul Worthington</span></p>
+            </div>
+            
+            <div class="col-12 col-md-6">
+                <img class="home-hero-img" src="static/images/dive.jpeg">
+            </div>
+        
+        </div>
+    </div>
+
+    <section class="timeline-section">
+        <div class="container">
+          <!-- Timeline Header -->
+          <div class="Timeline__header">
+            <h2  class="section-title">Portfolio</h2>
+
+          </div>
+        </div>
+
+        <div class="carousel-container">
+            <div id="homeCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#homeCarousel" data-slide-to="1"></li>
+                    <li data-target="#homeCarousel" data-slide-to="2"></li>
+                </ol>
+                
+                <div class="carousel-inner">
+    
+                    <div class="carousel-item active">
+                        <div class="slide-1">
+                            <div class="container carousel-content">
+                                <h2>Responsibly Sourced</h2>
+                                <p>All our seafood is line caught ensuring we take no more from the sea than neccessary.</p>
+                            </div>
+                        </div>
+                    </div>  
+                
+                    <div class="carousel-item">
+                        <div class="slide-2">
+                            <div class="container carousel-content">
+                                <h2>Expertly Crafted</h2>
+                                <p>Pierre Dupont heads the pass with his team of experienced chefs. Combined they have over 130 years experience.</p>
+                            </div>
+                        </div>
+                    </div> 
+    
+                    <div class="carousel-item">
+                        <div class="slide-3">
+                            <div class="container carousel-content">
+                                <h2>Perfectly balanced</h2>
+                                <p>All of our ingredients are carefully selected to produce rich flavours perfectly balanced on the palete.</p>
+                            </div>
+                        </div>
+                    </div> 
+    
+                    <a href="#homeCarousel" class="carousel-control-prev" role="button" data-slide="prev">
+                        <span class="sr-only">Previous</span>
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </a>
+    
+                    <a href="#homeCarousel" class="carousel-control-next" role="button" data-slide="next">
+                        <span class="sr-only">Next</span>
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </a>
+    
+                </div>
+            </div>
+        </div>
+    
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <!--Link jQuery-->

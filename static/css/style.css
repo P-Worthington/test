@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+h1, h2, h3 {
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    margin-top: -10px;
+}
+
 /*menu bar styling*/
 header {
     color: #333;
@@ -205,12 +222,14 @@ h3 {
 .Timeline__header {
   text-align: center;
   margin-bottom: 9rem;
+  font-size: 25px;
 }
 
 .Timeline__content {
   display: flex;
   flex-direction: column;
   position: relative;
+  margin-top: -80px;
 }
 
 .Timeline__content::after {
@@ -275,4 +294,102 @@ h3 {
   align-items: center;
   z-index: 3;
   font-size: 1.6rem;
+}
+
+.min-margin {
+    margin-top: -80px;
+}
+
+.section-title {
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+/*quotes carousel*/
+
+.carousel-container {
+    margin-top: -100px;
+}
+
+.carousel-item {
+    height: 60vh;
+    background-color: #000;
+    position: relative;
+}
+
+.carousel-content {
+    position: absolute;
+    z-index: 98;
+    bottom: 80px;
+    left: 0;
+    right: 0;
+    background-color: whitesmoke;
+    text-align: center;
+    width: fit-content;
+    max-width: 400px;
+    height: fit-content;
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 0.5;
+}
+
+.slide-1 {
+    background-image: url(../images/carousel-images/slide-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.slide-2 {
+    background-image: url(../images/carousel-images/slide-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.slide-3 {
+    background-image: url(../images/carousel-images/slide-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.carousel-content h2 {
+    margin-top: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.carousel-content p {
+    font-family: "Cinzel", serif;
+    font-weight: 500;
+}
+
+.carousel-content a {
+    color: black;
+    letter-spacing: 1px;
 }
